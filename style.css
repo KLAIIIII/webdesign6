@@ -1,18 +1,22 @@
-#box1 {
-    background-color: cornflowerblue;
-    padding: 30px;
-    border: 20px solid royalblue;
-    margin: 10px;
+*{
+    font-size: 60px;
 }
+
+#box1 {
+    background-color:goldenrod;
+    width: 300px;
+    padding: 30px;
+    border: 10px solid black;
+}
+
+/* width = total size */
+ /* (300px - 60 - 20) */
+ /* 220px + 60px + 20px = 300px */
 
 #box2 {
-    background-color: rosybrown;
+    background-color: lightyellow;
+    width: 300px;
     padding: 30px;
-    border: 20px solid saddlebrown;
-    margin: 10px;
-}
-
-.wrappr {
-    display: flex;
-    flex-direction:row;
+    border: 10px solid black;
+    box-sizing: border-box;
 }
